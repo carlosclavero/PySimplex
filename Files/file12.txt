@@ -1,0 +1,5 @@
+#function
+max 2 -3
+-1 1 <= 2 //first restriction
+1 1 <= 4 
+1 -2 <= 1

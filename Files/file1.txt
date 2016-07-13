@@ -1,0 +1,8 @@
+#function
+max 1 2 -3  
+//first restriction
+2 1 -1 <= 4
+1 1 2 >= 3 # Second restriction
+//End of the problem
+
+
