@@ -1,8 +1,0 @@
-#function
-min -2 -1 3 -5 
-//first restriction
-1 2 2 4 <= 40
--2 1 -1 -2 >= -8
-4 -2 1 -1 <= 10
-
-
