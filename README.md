@@ -19,5 +19,5 @@ Este es un módulo python que contiene servicios para trabajar con problemas de 
   - SimplexSolver.py: esta clase contiene un solver para resolver problemas de programación lineal.
   - rational.py: esta clase contiene una implementación de los números racionales.
 
-Para entender mejor como funcionan estas clases, por favor, consulte los manuales de instalación y de uso que puede encontrar en el directorio "Documentation".
-En el directorio "Files", puede encontrar archivos con distintos tipos de porblemas de programación lineal que puede resolver SimplexSolver.
+Para entender mejor el funcionamiento estas clases, por favor, consulte los manuales de instalación y de uso que puede encontrar en el directorio "Documentation".
+En el directorio "Files", puede encontrar archivos con distintos tipos de problemas de programación lineal que puede resolver SimplexSolver.
