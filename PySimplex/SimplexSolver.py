@@ -107,32 +107,4 @@ else:
         else:
             Simplex.showProblemSolution(fileProcess[0],fileProcess[1],fileProcess[2],fileProcess[3],save)
     
-    #args.input.close()
-    # Output file is closed
-    #if args.output:
-     #  args.output.close() 
-'''
-#!/usr/bin/env python3
-import Simplex
-import argparse
-import sys
-from io import StringIO 
-#add arguments to arg parse to use input parameters
-parser = argparse.ArgumentParser()
-parser.add_argument('--input',required=True, type=argparse.FileType('r'),help="File which contains the problem")
-parser.add_argument('--output', type=argparse.FileType('w'),help="File where the solution is written")
-parser.add_argument('--dual',action="store_true",help="Show the solution of dual problem")
-args = parser.parse_args()
-
-if args.output:
-    #saveout = sys.stdout
     
-    #"C:\\Users\\cclav_000\\Desktop\\out.txt"
-    #fsock = open(args.output, 'w')                             
-    sys.stdout = args.output
-    
-fileProcess= Simplex.proccessFile(args.input)
-print(Simplex.solveProblem(fileProcess[0],fileProcess[1],fileProcess[2],fileProcess[3],args.dual))
-if args.output:
-   args.output.close()
-'''
